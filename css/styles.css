@@ -61,27 +61,26 @@ body {
 
 textarea {
 	resize: none;
-	border: none;
+	border-top: none;
+	border-color: grey;
 
 }
 
 .panel {
 	float: left;
 	width: 50%;
+	border-left: none;
 
 }
 
 iframe {
-	resize: none;
-	border-top: none;
-	border-bottom: none;
-	border-color: grey;
+	border: none;
 
 }
 
 .hidden {
 	display: none;
-	
+
 }
 
 
