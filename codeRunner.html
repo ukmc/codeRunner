@@ -4,7 +4,7 @@
 <!-- Load the CDN first -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<script type="text/javascript" src="script.js"></script>
+
 
 	<title>Code Runner</title>
 </head>
@@ -17,17 +17,24 @@
 
 		<div id="buttonContainer">
 			
-			<div class="toggleButton" id="html">HTML</div>
+			<div class="toggleButton active" id="html">HTML</div>
 
 			<div class="toggleButton" id="css">CSS</div>
 
 			<div class="toggleButton" id="javascript">JavaScript</div>
 
-			<div class="toggleButton" id="output">Output</div>
+			<div class="toggleButton active" id="output">Output</div>
 
 		</div>
 
 	</div>
 
+		<div id="bodyContainer">
+
+			<textarea id="htmlTextarea">Hello World!</textarea>
+
+		</div>
+
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
