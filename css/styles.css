@@ -60,8 +60,27 @@ body {
 }
 
 textarea {
+	resize: none;
+	border: none;
+
+}
+
+.panel {
+	float: left;
 	width: 50%;
-	height: 100%;
+
+}
+
+iframe {
+	resize: none;
+	border-top: none;
+	border-bottom: none;
+	border-color: grey;
+
+}
+
+.hidden {
+	display: none;
 	
 }
 
